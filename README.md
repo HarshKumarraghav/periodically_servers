@@ -1,7 +1,8 @@
 # Periodically API
-You can access the data by using this link: https://periodically-servers.herokuapp.com/
-A simple NodeJS API for **Periodic Table Elements** returns in JSON format.
 
+A simple NodeJS API for **Periodic Table Elements** returns in JSON format.
+---
+You can access the data by using this link: https://periodically-servers.herokuapp.com/
 ---
 
 ## JSON Data

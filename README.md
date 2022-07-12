@@ -1,4 +1,4 @@
-# Periodic Table API
+# Periodically API
 A simple NodeJS API for **Periodic Table Elements** returns in JSON format.
 
 ---

@@ -2,7 +2,7 @@ const express = require("express");
 const app = express();
 const elements = require("./data.json").elements;
 const _ = require("lodash");
-
+const PORT = process.env.PORT || 8000;
 Array.prototype.paginate = function (page = 1, limit = this.length) {
   page = Number(page);
   limit = Number(limit);
@@ -112,6 +112,6 @@ app.get("/spectral/:element", (req, res) => {
   }
 });
 
-app.listen(8000, async () => {
+app.listen(PORT, async () => {
   console.log("App listening at localhost:8000");
 });

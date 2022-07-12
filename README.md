@@ -46,7 +46,7 @@ A simple NodeJS API for **Periodic Table Elements** returns in JSON format.
 ## Development
 ### Install Repository
 ```git
-git clone https://github.com/boraoksuzoglu/periodic-table-api
+git clone https://github.com/HarshKumarraghav/periodically_servers.git
 ```
 
 ### Run Project

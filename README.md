@@ -1,4 +1,5 @@
 # Periodically API
+You can access the data by using this link: https://periodically-servers.herokuapp.com/
 A simple NodeJS API for **Periodic Table Elements** returns in JSON format.
 
 ---
@@ -26,7 +27,7 @@ A simple NodeJS API for **Periodic Table Elements** returns in JSON format.
     "spectral_img": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Hydrogen_Spectra.jpg",
     "summary": "Hydrogen is a chemical element with chemical symbol H and atomic number 1. With an atomic weight of 1.00794 u, hydrogen is the lightest element on the periodic table. Its monatomic form (H) is the most abundant chemical substance in the Universe, constituting roughly 75% of all baryonic mass.",
     "symbol": "H",
-    "xpos": 1,
+    ":": 1,
     "ypos": 1,
     "shells": [
         1

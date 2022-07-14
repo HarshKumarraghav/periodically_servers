@@ -1,5 +1,6 @@
 const express = require("express");
 const app = express();
+const cors = require('cors');
 const elements = require("./data.json").elements;
 const _ = require("lodash");
 const PORT = process.env.PORT || 8000;

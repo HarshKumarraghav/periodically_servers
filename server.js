@@ -29,7 +29,11 @@ function queryParams(params, array = elements) {
   if (params["reverse"] == "true") _.reverse(array);
   return array.paginate(params.page, params.limit);
 }
-
+// cor policy
+app.use((req, res, next) => {
+  res.header({"Access-Control-Allow-Origin": "*"});
+  next();
+}) 
 app.get("/", async (req, res) => {
   res.json(queryParams(req.query));
 });

@@ -58,7 +58,7 @@ npm run devStart
 
 ### Finish
 ```
-Your project is running on https://localhost:3000.
+Your project is running on https://localhost:8000.
 ```
 ---
 
